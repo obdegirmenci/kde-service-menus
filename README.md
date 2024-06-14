@@ -8,6 +8,7 @@ KDE Plasma service menu entries I made for my needs. 🥰
 
 *\***Dolphin** may requires **restart***
 
+## Actions
 ### Compress Special
 Compress multiple files or directories with **7zr**, *Maximum* or *Minimum* ratio.
 
