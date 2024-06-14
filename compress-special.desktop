@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=all/all;
+Actions=compress7zMax;compress7zMin;
+X-KDE-Submenu=Compress Special
+X-KDE-AuthorizeAction=shell_access
+
+[Desktop Action compress7zMax]
+Name=7-Zip Max
+Exec=7zr a -t7z -m0=lzma2 -mx=9 -ms=on %u.7z %f
+Icon=archive-insert
+
+[Desktop Action compress7zMin]
+Name=7-Zip Min
+Exec=7zr a -t7z -m0=lzma2 -mx=0 -ms=on %u.7z %f
+Icon=archive-insert
