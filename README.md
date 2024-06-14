@@ -1,7 +1,7 @@
 # KDE Service Menus
 KDE Plasma service menu entries I made for my needs. 🥰
 
-## Installition
+## Installation
 **Copy** there:
 
 `~/.local/share/kio/servicemenus`
