@@ -8,5 +8,5 @@ X-KDE-AuthorizeAction=TopLevel
 
 [Desktop Action createDatedFolder]
 Name=Create Dated Folder
-Exec=bash -c "cd %f && ~/.local/share/kio/servicemenus/create-dated-folder.sh"
+Exec=bash -c "cd '%f' && ~/.local/share/kio/servicemenus/create-dated-folder.sh"
 Icon=folder-new
